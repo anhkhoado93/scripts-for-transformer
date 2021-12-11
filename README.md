@@ -12,4 +12,4 @@
 - Data must be preprocessed (lowercase, etc).
 ### Training
 - create 3 folders: bin, checkpoints, logs
-- if subword is used to train, then training a BPE is required. Use tokenizers/train_bpe.sh
+- if subword is used to train the transformer, then training a BPE is required. Use tokenizers/train_bpe.sh. NOTE: specifying size of dictionary directly in the shell script.
